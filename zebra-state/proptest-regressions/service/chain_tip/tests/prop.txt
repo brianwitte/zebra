@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 2d784bf354c07a68c36beb9d1cb01c8e6e532a4b89d6c03ac42edf85442378ea # shrinks to height_updates = [NonFinalized(None), Finalized(Height(0))]
+cc 0efd0cc375df428443fd3dbdc3076eef67b82b1208242148a4929e9d065d579f # shrinks to height_updates = [Finalized(Some(Height(0))), NonFinalized(None)]
