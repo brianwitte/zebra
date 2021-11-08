@@ -61,10 +61,10 @@ mod config;
 pub mod constants;
 mod isolated;
 mod meta_addr;
-mod peer;
+pub mod peer;
 mod peer_set;
 mod policies;
-mod protocol;
+pub mod protocol;
 
 pub use crate::{
     address_book::AddressBook,
